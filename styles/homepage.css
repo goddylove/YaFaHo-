@@ -92,5 +92,13 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  img {
+    width: auto;
+    margin: 4rem 0;
+  }
+  video{
+    display: flex;
+    justify-content: flex-end;
+  }
   
   
