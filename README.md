@@ -1,5 +1,4 @@
-# YaFaho Shopping Website
-
+YaFaho Shopping Website
 This is a simple frontend shopping website that allows users to browse and purchase products. It provides a user-friendly interface and showcases various products for sale.
 
 ## Table of Contents
