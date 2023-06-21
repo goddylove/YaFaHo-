@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../styles/products.css"/>
+       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+<body style="background-color:rgba(27, 61, 134, 0.288)">
+    <div id="navbar"></div>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html");
+      });
+    </script>
+    <div class="container">
+    <h1>Our Products</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nigerian Senator Wear</td>
+            <td>$99.99</td>
+          </tr>
+          <tr>
+            <td>Bamenda Traditional Regalia</td>
+            <td>$149.99</td>
+          </tr>
+          <tr>
+            <td>Customized Suits</td>
+            <td>$139.49</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div id="footer">
+      <script>
+        $(function () {
+          $("#footer").load("footer.html");
+        });
+      </script>  
+    </div>
+</body>
+</html>

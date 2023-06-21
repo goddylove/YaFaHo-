@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YaFaho Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="../styles/login.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body style="background-color:rgba(27, 61, 134, 0.288)">
+    <div id="navbar1"></div>
+    <script>
+      $(function () {
+        $("#navbar1").load("navbar1.html");
+      });
+    </script>
+    <div class="container" style="margin-top: 5rem;">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <img src="../images/loginlogo.jpg" alt="login-icon" class="login-icon" />
+          <form action="homepage.html" method="get">
+            <div class="mb-3">
+              <label class="form-label" for="inputEmail">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="inputPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <div class="form-check" >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkRemember"
+                />
+                <label class="form-check-label" for="checkRemember"
+                  >Remember me</label
+                >
+              </div>
+            </div>
+            <button type="submit" style="margin: 0 1em" class="btn btn-primary">Log in</button>
+            <div class="signup-link" style="padding: 1rem">
+              Not a member? <a href="yafahosignup.html">Register now</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <script>
+        $(function () {
+          $("#footer").load("footer.html");
+        });
+      </script>  
+    </div>
+  </body>
+</html>
